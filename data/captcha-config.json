@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "texts": {
+    "checkboxLabel": "Nie jestem robotem",
+    "checkboxStatusIdle": "Weryfikacja",
+    "checkboxStatusVerifying": "Sprawdzanie…",
+    "checkboxStatusVerified": "Zweryfikowano",
+    "modalTitle": "Weryfikacja",
+    "modalSubtitle": "Wykonaj zadanie, aby kontynuować",
+    "instructionPrefix": "Zaznacz wszystkie obrazy z",
+    "instructionTarget": "Twoją walentynką",
+    "instructionSuffix": "",
+    "buttonVerify": "Potwierdź",
+    "buttonRefresh": "Wyczyść",
+    "buttonClose": "Zamknij",
+    "hintSelectMultiple": "Kliknij wszystkie pasujące obrazy. Jeśli żaden nie pasuje, kliknij Potwierdź.",
+    "toastSuccessTitle": "Weryfikacja zakończona",
+    "toastSuccessBody": "Dziękujemy.",
+    "toastErrorTitle": "Spróbuj ponownie",
+    "toastErrorBody": "Zaznaczenie nie pasuje. Spróbuj jeszcze raz.",
+    "toastConfigError": "Błąd konfiguracji: użyto bezpiecznych ustawień domyślnych.",
+    "tilePlaceholder": "Brak obrazu",
+    "successHeadline": "Udało się — to Ty.",
+    "successBody": "Wszystko się zgadza. Miłego walentynkowego wieczoru.",
+    "successButtonReset": "Wróć do weryfikacji",
+    "successFooterNote": "(autorski system captcha-like)",
+    "adminTitle": "Panel /admin",
+    "adminSubtitle": "Edytuj teksty, branding i kafelki. Zmiany zapisują się w localStorage.",
+    "adminSectionTexts": "Teksty",
+    "adminSectionBranding": "Branding",
+    "adminSectionUi": "UI",
+    "adminSectionChallenge": "Zadanie",
+    "adminSectionTiles": "Kafelki",
+    "adminLivePreviewTitle": "Podgląd na żywo",
+    "adminLivePreviewSubtitle": "Podgląd używa tej samej konfiguracji, którą edytujesz.",
+    "adminNotesTitle": "Notatki",
+    "adminNotesNoAuth": "Brak logowania na /admin (celowo — zgodnie z wymaganiem).",
+    "adminNotesOriginal": "UI jest autorskie i nie używa żadnych assetów Google.",
+    "adminTileCorrectLabel": "poprawny",
+    "adminTilesTip": "Wskazówka: src może być /tiles/… (public/) albo dowolnym URL.",
+    "adminDuplicateTileId": "Wykryto zduplikowane id kafelka.",
+    "adminResetButton": "Reset do domyślnych",
+    "adminExportButton": "Eksportuj konfigurację (JSON)"
+  },
+  "branding": {
+    "cornerLabel": "",
+    "cornerSubLabel": "",
+    "privacyLabel": "",
+    "termsLabel": ""
+  },
+  "challenge": {
+    "gridAriaLabel": "Siatka wyboru obrazów",
+    "tiles": [
+      {
+        "id": "t1",
+        "src": "/tiles/tile-1.svg",
+        "alt": ""
+      },
+      {
+        "id": "t2",
+        "src": "/tiles/tile-2.svg",
+        "alt": ""
+      },
+      {
+        "id": "t3",
+        "src": "/tiles/tile-3.svg",
+        "alt": ""
+      },
+      {
+        "id": "t4",
+        "src": "/tiles/tile-4.svg",
+        "alt": ""
+      },
+      {
+        "id": "t5",
+        "src": "/tiles/tile-5.svg",
+        "alt": ""
+      },
+      {
+        "id": "t6",
+        "src": "/tiles/tile-6.svg",
+        "alt": ""
+      },
+      {
+        "id": "t7",
+        "src": "/tiles/tile-7.svg",
+        "alt": ""
+      },
+      {
+        "id": "t8",
+        "src": "/tiles/tile-8.svg",
+        "alt": ""
+      },
+      {
+        "id": "t9",
+        "src": "/tiles/tile-9.svg",
+        "alt": ""
+      }
+    ],
+    "correctTileIds": [
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "t5",
+      "t6",
+      "t7",
+      "t8",
+      "t9"
+    ]
+  },
+  "ui": {
+    "tilesPerRowDesktop": 3,
+    "tileGapPx": 4,
+    "modalWidthPx": 414
+  }
+}
