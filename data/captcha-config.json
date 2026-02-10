@@ -20,12 +20,12 @@
     "toastErrorBody": "Zaznaczenie nie pasuje. Spróbuj jeszcze raz.",
     "toastConfigError": "Błąd konfiguracji: użyto bezpiecznych ustawień domyślnych.",
     "tilePlaceholder": "Brak obrazu",
-    "successHeadline": "Udało się — to Ty.",
-    "successBody": "Wszystko się zgadza. Miłego walentynkowego wieczoru.",
+    "successHeadline": "Okej, odpowiedź uważam za prawidłową...",
+    "successBody": "Także oficjalnie ja wybrałem Ciebie, a Ty mnie. Do zobaczenia w sobotę :*",
     "successButtonReset": "Wróć do weryfikacji",
-    "successFooterNote": "(autorski system captcha-like)",
+    "successFooterNote": "",
     "adminTitle": "Panel /admin",
-    "adminSubtitle": "Edytuj teksty, branding i kafelki. Zmiany zapisują się w localStorage.",
+    "adminSubtitle": "Edytuj teksty, branding i kafelki. ",
     "adminSectionTexts": "Teksty",
     "adminSectionBranding": "Branding",
     "adminSectionUi": "UI",
@@ -53,60 +53,60 @@
     "tiles": [
       {
         "id": "t1",
-        "src": "/tiles/tile-1.svg",
+        "src": " /szymon/1.JPEG",
         "alt": ""
       },
       {
         "id": "t2",
-        "src": "/tiles/tile-2.svg",
+        "src": "/szymon/2.JPEG",
         "alt": ""
       },
       {
         "id": "t3",
-        "src": "/tiles/tile-3.svg",
+        "src": "/szymon/3.JPEG",
         "alt": ""
       },
       {
         "id": "t4",
-        "src": "/tiles/tile-4.svg",
+        "src": "/szymon/4.JPEG",
         "alt": ""
       },
       {
         "id": "t5",
-        "src": "/tiles/tile-5.svg",
+        "src": "/szymon/5.JPEG",
         "alt": ""
       },
       {
         "id": "t6",
-        "src": "/tiles/tile-6.svg",
+        "src": "/szymon/6.JPEG",
         "alt": ""
       },
       {
         "id": "t7",
-        "src": "/tiles/tile-7.svg",
+        "src": "/szymon/7.JPEG",
         "alt": ""
       },
       {
         "id": "t8",
-        "src": "/tiles/tile-8.svg",
+        "src": "/szymon/8.JPEG",
         "alt": ""
       },
       {
         "id": "t9",
-        "src": "/tiles/tile-9.svg",
+        "src": "/szymon/9.JPEG",
         "alt": ""
       }
     ],
     "correctTileIds": [
       "t1",
-      "t2",
       "t3",
       "t4",
       "t5",
       "t6",
       "t7",
       "t8",
-      "t9"
+      "t9",
+      "t2"
     ]
   },
   "ui": {
