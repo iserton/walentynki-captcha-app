@@ -5,6 +5,8 @@ import { defaultCaptchaConfig } from "@/content/captchaConfig";
 import { useCaptchaConfig } from "@/app-state/useCaptchaConfig";
 import { VerifyWidget } from "@/components/captcha/VerifyWidget";
 
+type CaptchaConfig = typeof defaultCaptchaConfig;
+
 function downloadJson(filename: string, json: unknown) {
   const blob = new Blob([JSON.stringify(json, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
@@ -15,7 +17,7 @@ function downloadJson(filename: string, json: unknown) {
   URL.revokeObjectURL(url);
 }
 
-async function saveConfigToServer(config: unknown) {
+async function saveConfigToServer(config: CaptchaConfig) {
   const res = await fetch("/api/captcha-config", {
     method: "PUT",
     headers: { "content-type": "application/json" },
@@ -23,7 +25,7 @@ async function saveConfigToServer(config: unknown) {
   });
   const json = await res.json();
   if (!res.ok || !json?.ok) throw new Error("save_failed");
-  return json as { ok: true; config: unknown; hadErrors: boolean };
+  return json as { ok: true; config: CaptchaConfig; hadErrors: boolean };
 }
 
 export default function AdminPage() {
